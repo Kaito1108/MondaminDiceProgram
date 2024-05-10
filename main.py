@@ -4,7 +4,7 @@ from datetime import timedelta, datetime
 dice = ["モ", "ン", "ダ", "ミ", "ン", "ン"]
 diceroll = []
 count = int()
-base_date = datetime(1, 1, 1)
+base_date = datetime(0, 1, 1)
 result = ""
 
 while True:
