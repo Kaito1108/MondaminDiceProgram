@@ -7,7 +7,7 @@ class Main {
 		var count = 0;
 		var result = false;
 
-		while (result == false) {
+		while (!result) {
 			for (i in 0...6) {
 				diceroll.push(dice[Math.floor(Math.random() * 6)]);
 
